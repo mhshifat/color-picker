@@ -4,7 +4,7 @@ A color picker app.
 
 ### Demo Link
 
-link: [https://todoist-clone.netlify.com](https://todoist-clone.netlify.com)
+link: [https://color-picker.netlify.app](https://color-picker.netlify.app)
 
 ### Technologies Used
 
