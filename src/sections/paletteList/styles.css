@@ -1,0 +1,39 @@
+.palette-list {
+  background: transparent;
+  height: 100vh;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+}
+
+.container {
+  width: 990px;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+.palette-list__nav {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+  color: #fff;
+}
+
+.palette-list__nav a {
+  color: #ccc;
+}
+
+.palettes {
+  width: 100%;
+  box-sizing: border-box;
+  display: grid;
+  grid-template-columns: repeat(3, 30%);
+  grid-gap: 5%;
+  padding-bottom: 20px;
+  overflow: hidden;
+  height: auto;
+  padding-bottom: 100px;
+}

@@ -1,0 +1,62 @@
+.mini-palette {
+  background: #fff;
+  border-radius: 5px;
+  padding: 0.5rem;
+  position: relative;
+  overflow: hidden;
+  cursor: pointer;
+  border: 1px solid #000;
+}
+
+.mini-palette__colors {
+  background: #dae1e4;
+  height: 150px;
+  width: 100%;
+  overflow: hidden;
+  border-radius: 5px;
+}
+
+.mini-palette__title {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0;
+  color: #000;
+  padding-top: 0.5rem;
+  font-size: 1rem;
+  position: relative;
+}
+
+.mini-palette__emoji {
+  margin-left: 0.5rem;
+  font-size: 1rem;
+}
+
+.mini-color {
+  height: 25%;
+  width: 20%;
+  display: inline-block;
+  margin: 0 auto;
+  position: relative;
+  margin-bottom: -6px;
+}
+
+.mini-palette__close {
+  position: absolute;
+  top: 0;
+  right: 0;
+  z-index: 25;
+  background: red;
+  color: #fff;
+  width: 35px;
+  height: 35px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  opacity: 0;
+}
+
+.mini-palette:hover .mini-palette__close {
+  opacity: 1;
+  transition: all 0.4s ease-in-out;
+}

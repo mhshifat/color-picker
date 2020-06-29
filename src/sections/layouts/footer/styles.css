@@ -1,0 +1,14 @@
+.footer {
+  background: #eceff1;
+  height: 5vh;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  font-weight: bold;
+  font-size: 14px;
+}
+
+.emoji {
+  font-size: 14px;
+  margin: 0 1rem 0 0.5rem;
+}
